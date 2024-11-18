@@ -14,7 +14,7 @@ TcpFileSender::TcpFileSender(QWidget *parent)
     ipAddressInput = new QLineEdit;
     ipAddressInput->setPlaceholderText(QStringLiteral("例如：127.0.0.1"));
 
-    ipPortLabel = new QLabel(QStringLiteral("IP 位址："));
+    ipPortLabel = new QLabel(QStringLiteral("Port 位址："));
     ipPortInput = new QLineEdit;
     ipPortInput->setPlaceholderText(QStringLiteral("例如：8080"));
 
