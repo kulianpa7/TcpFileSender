@@ -8,7 +8,7 @@ TcpFileSender::TcpFileSender(QWidget *parent)
     bytesWritten = 0;
     bytesToWrite = 0;
     clientProgressBar = new QProgressBar;
-    clientStatusLabel = new QLabel(QStringLiteral("客戶端就了"));
+    clientStatusLabel = new QLabel(QStringLiteral("客戶就了"));
     startButton = new QPushButton(QStringLiteral("開始"));
     quitButton = new QPushButton(QStringLiteral("退出"));
     openButton = new QPushButton(QStringLiteral("開檔"));
